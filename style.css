@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    background: #fff;
+    grid-gap: 5px;
+    margin-bottom: 20px;
+  }
+  h1{
+   
+        width: 70%; /* Set width as per your requirement */
+        max-width: 200px; /* Maximum width for responsiveness */
+        margin: 30px auto;
+        background: orange;
+        padding: 10px;
+        border: 2px solid #333;
+        text-align: center;
+      
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #f0f0f0;
+  }
+  .button{
+    border-radius: none;
+  }
+  
